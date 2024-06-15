@@ -13,6 +13,7 @@ pub fn build(b: *std.Build) void {
         .{ .name = "extest", .file = "src/extest.c" },
         .{ .name = "ch3-1", .file = "src/ch3-1.c" },
         .{ .name = "ch4-1", .file = "src/ch4-1.c" },
+        .{ .name = "ch4-2", .file = "src/ch4-2.c" },
     };
 
     for (examples) |ex| {
